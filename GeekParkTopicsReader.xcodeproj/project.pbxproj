@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65C0DF8168376F98CCF92AAA /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88EB901D879C3117141878B9 /* Pods.framework */; };
+		F7202E121C8D85ED0043899E /* Topic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7202E111C8D85ED0043899E /* Topic.swift */; };
+		F7202E141C8DB7F20043899E /* TopicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7202E131C8DB7F20043899E /* TopicCell.swift */; };
+		F755B0751C8FECE6009777E8 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F755B0741C8FECE6009777E8 /* MenuViewController.swift */; };
+		F7A80F7A1C8D55590097BF31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A80F791C8D55590097BF31 /* AppDelegate.swift */; };
+		F7A80F7C1C8D55590097BF31 /* TopicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A80F7B1C8D55590097BF31 /* TopicsViewController.swift */; };
+		F7A80F7F1C8D55590097BF31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7A80F7D1C8D55590097BF31 /* Main.storyboard */; };
+		F7A80F811C8D55590097BF31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7A80F801C8D55590097BF31 /* Assets.xcassets */; };
+		F7A80F841C8D55590097BF31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7A80F821C8D55590097BF31 /* LaunchScreen.storyboard */; };
+		F7A80F8F1C8D55590097BF31 /* GeekParkTopicsReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A80F8E1C8D55590097BF31 /* GeekParkTopicsReaderTests.swift */; };
+		F7A80F9A1C8D55590097BF31 /* GeekParkTopicsReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A80F991C8D55590097BF31 /* GeekParkTopicsReaderUITests.swift */; };
+		F7C590D21C8EB7110051BCE3 /* TopicDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C590D11C8EB7110051BCE3 /* TopicDetailViewController.swift */; };
+		F7C590D41C8EB9350051BCE3 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C590D31C8EB9350051BCE3 /* ContainerViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F7A80F8B1C8D55590097BF31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7A80F6E1C8D55590097BF31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7A80F751C8D55590097BF31;
+			remoteInfo = GeekParkTopicsReader;
+		};
+		F7A80F961C8D55590097BF31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7A80F6E1C8D55590097BF31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7A80F751C8D55590097BF31;
+			remoteInfo = GeekParkTopicsReader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0FF76CEBDA1B2B07150CB222 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		88EB901D879C3117141878B9 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A78858AEE3C50924F6035AFA /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		F7202E111C8D85ED0043899E /* Topic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Topic.swift; sourceTree = "<group>"; };
+		F7202E131C8DB7F20043899E /* TopicCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopicCell.swift; sourceTree = "<group>"; };
+		F755B0741C8FECE6009777E8 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		F7A80F761C8D55590097BF31 /* GeekParkTopicsReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeekParkTopicsReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7A80F791C8D55590097BF31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F7A80F7B1C8D55590097BF31 /* TopicsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicsViewController.swift; sourceTree = "<group>"; };
+		F7A80F7E1C8D55590097BF31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F7A80F801C8D55590097BF31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7A80F831C8D55590097BF31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F7A80F851C8D55590097BF31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7A80F8A1C8D55590097BF31 /* GeekParkTopicsReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeekParkTopicsReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7A80F8E1C8D55590097BF31 /* GeekParkTopicsReaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeekParkTopicsReaderTests.swift; sourceTree = "<group>"; };
+		F7A80F901C8D55590097BF31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7A80F951C8D55590097BF31 /* GeekParkTopicsReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeekParkTopicsReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7A80F991C8D55590097BF31 /* GeekParkTopicsReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeekParkTopicsReaderUITests.swift; sourceTree = "<group>"; };
+		F7A80F9B1C8D55590097BF31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7C590D11C8EB7110051BCE3 /* TopicDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopicDetailViewController.swift; sourceTree = "<group>"; };
+		F7C590D31C8EB9350051BCE3 /* ContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7A80F731C8D55590097BF31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65C0DF8168376F98CCF92AAA /* Pods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7A80F871C8D55590097BF31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7A80F921C8D55590097BF31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32B047C257DFA2FC779A2028 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0FF76CEBDA1B2B07150CB222 /* Pods.debug.xcconfig */,
+				A78858AEE3C50924F6035AFA /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D931198CD3DC5B4B40FE7A5B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88EB901D879C3117141878B9 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7A80F6D1C8D55590097BF31 = {
+			isa = PBXGroup;
+			children = (
+				F7A80F781C8D55590097BF31 /* GeekParkTopicsReader */,
+				F7A80F8D1C8D55590097BF31 /* GeekParkTopicsReaderTests */,
+				F7A80F981C8D55590097BF31 /* GeekParkTopicsReaderUITests */,
+				F7A80F771C8D55590097BF31 /* Products */,
+				32B047C257DFA2FC779A2028 /* Pods */,
+				D931198CD3DC5B4B40FE7A5B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F7A80F771C8D55590097BF31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7A80F761C8D55590097BF31 /* GeekParkTopicsReader.app */,
+				F7A80F8A1C8D55590097BF31 /* GeekParkTopicsReaderTests.xctest */,
+				F7A80F951C8D55590097BF31 /* GeekParkTopicsReaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7A80F781C8D55590097BF31 /* GeekParkTopicsReader */ = {
+			isa = PBXGroup;
+			children = (
+				F7A80F791C8D55590097BF31 /* AppDelegate.swift */,
+				F7A80F7B1C8D55590097BF31 /* TopicsViewController.swift */,
+				F7A80F7D1C8D55590097BF31 /* Main.storyboard */,
+				F7A80F801C8D55590097BF31 /* Assets.xcassets */,
+				F7A80F821C8D55590097BF31 /* LaunchScreen.storyboard */,
+				F7A80F851C8D55590097BF31 /* Info.plist */,
+				F7202E111C8D85ED0043899E /* Topic.swift */,
+				F7202E131C8DB7F20043899E /* TopicCell.swift */,
+				F7C590D11C8EB7110051BCE3 /* TopicDetailViewController.swift */,
+				F7C590D31C8EB9350051BCE3 /* ContainerViewController.swift */,
+				F755B0741C8FECE6009777E8 /* MenuViewController.swift */,
+			);
+			path = GeekParkTopicsReader;
+			sourceTree = "<group>";
+		};
+		F7A80F8D1C8D55590097BF31 /* GeekParkTopicsReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				F7A80F8E1C8D55590097BF31 /* GeekParkTopicsReaderTests.swift */,
+				F7A80F901C8D55590097BF31 /* Info.plist */,
+			);
+			path = GeekParkTopicsReaderTests;
+			sourceTree = "<group>";
+		};
+		F7A80F981C8D55590097BF31 /* GeekParkTopicsReaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F7A80F991C8D55590097BF31 /* GeekParkTopicsReaderUITests.swift */,
+				F7A80F9B1C8D55590097BF31 /* Info.plist */,
+			);
+			path = GeekParkTopicsReaderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7A80F751C8D55590097BF31 /* GeekParkTopicsReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7A80F9E1C8D55590097BF31 /* Build configuration list for PBXNativeTarget "GeekParkTopicsReader" */;
+			buildPhases = (
+				ABB4FE46369C5EB5C10E2654 /* Check Pods Manifest.lock */,
+				F7A80F721C8D55590097BF31 /* Sources */,
+				F7A80F731C8D55590097BF31 /* Frameworks */,
+				F7A80F741C8D55590097BF31 /* Resources */,
+				1BFE6BA7C3AD623061451269 /* Embed Pods Frameworks */,
+				3CCE6D5951C11D15807CD50E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeekParkTopicsReader;
+			productName = GeekParkTopicsReader;
+			productReference = F7A80F761C8D55590097BF31 /* GeekParkTopicsReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F7A80F891C8D55590097BF31 /* GeekParkTopicsReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7A80FA11C8D55590097BF31 /* Build configuration list for PBXNativeTarget "GeekParkTopicsReaderTests" */;
+			buildPhases = (
+				F7A80F861C8D55590097BF31 /* Sources */,
+				F7A80F871C8D55590097BF31 /* Frameworks */,
+				F7A80F881C8D55590097BF31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7A80F8C1C8D55590097BF31 /* PBXTargetDependency */,
+			);
+			name = GeekParkTopicsReaderTests;
+			productName = GeekParkTopicsReaderTests;
+			productReference = F7A80F8A1C8D55590097BF31 /* GeekParkTopicsReaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F7A80F941C8D55590097BF31 /* GeekParkTopicsReaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7A80FA41C8D55590097BF31 /* Build configuration list for PBXNativeTarget "GeekParkTopicsReaderUITests" */;
+			buildPhases = (
+				F7A80F911C8D55590097BF31 /* Sources */,
+				F7A80F921C8D55590097BF31 /* Frameworks */,
+				F7A80F931C8D55590097BF31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7A80F971C8D55590097BF31 /* PBXTargetDependency */,
+			);
+			name = GeekParkTopicsReaderUITests;
+			productName = GeekParkTopicsReaderUITests;
+			productReference = F7A80F951C8D55590097BF31 /* GeekParkTopicsReaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7A80F6E1C8D55590097BF31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Zkuns;
+				TargetAttributes = {
+					F7A80F751C8D55590097BF31 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					F7A80F891C8D55590097BF31 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F7A80F751C8D55590097BF31;
+					};
+					F7A80F941C8D55590097BF31 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F7A80F751C8D55590097BF31;
+					};
+				};
+			};
+			buildConfigurationList = F7A80F711C8D55590097BF31 /* Build configuration list for PBXProject "GeekParkTopicsReader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7A80F6D1C8D55590097BF31;
+			productRefGroup = F7A80F771C8D55590097BF31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7A80F751C8D55590097BF31 /* GeekParkTopicsReader */,
+				F7A80F891C8D55590097BF31 /* GeekParkTopicsReaderTests */,
+				F7A80F941C8D55590097BF31 /* GeekParkTopicsReaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7A80F741C8D55590097BF31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7A80F841C8D55590097BF31 /* LaunchScreen.storyboard in Resources */,
+				F7A80F811C8D55590097BF31 /* Assets.xcassets in Resources */,
+				F7A80F7F1C8D55590097BF31 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7A80F881C8D55590097BF31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7A80F931C8D55590097BF31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1BFE6BA7C3AD623061451269 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3CCE6D5951C11D15807CD50E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABB4FE46369C5EB5C10E2654 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7A80F721C8D55590097BF31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7A80F7C1C8D55590097BF31 /* TopicsViewController.swift in Sources */,
+				F7202E141C8DB7F20043899E /* TopicCell.swift in Sources */,
+				F7202E121C8D85ED0043899E /* Topic.swift in Sources */,
+				F755B0751C8FECE6009777E8 /* MenuViewController.swift in Sources */,
+				F7C590D21C8EB7110051BCE3 /* TopicDetailViewController.swift in Sources */,
+				F7C590D41C8EB9350051BCE3 /* ContainerViewController.swift in Sources */,
+				F7A80F7A1C8D55590097BF31 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7A80F861C8D55590097BF31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7A80F8F1C8D55590097BF31 /* GeekParkTopicsReaderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7A80F911C8D55590097BF31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7A80F9A1C8D55590097BF31 /* GeekParkTopicsReaderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7A80F8C1C8D55590097BF31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7A80F751C8D55590097BF31 /* GeekParkTopicsReader */;
+			targetProxy = F7A80F8B1C8D55590097BF31 /* PBXContainerItemProxy */;
+		};
+		F7A80F971C8D55590097BF31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7A80F751C8D55590097BF31 /* GeekParkTopicsReader */;
+			targetProxy = F7A80F961C8D55590097BF31 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F7A80F7D1C8D55590097BF31 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7A80F7E1C8D55590097BF31 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F7A80F821C8D55590097BF31 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7A80F831C8D55590097BF31 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7A80F9C1C8D55590097BF31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F7A80F9D1C8D55590097BF31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7A80F9F1C8D55590097BF31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FF76CEBDA1B2B07150CB222 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GeekParkTopicsReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zk.GeekParkTopicsReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F7A80FA01C8D55590097BF31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A78858AEE3C50924F6035AFA /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GeekParkTopicsReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zk.GeekParkTopicsReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F7A80FA21C8D55590097BF31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GeekParkTopicsReaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zk.GeekParkTopicsReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeekParkTopicsReader.app/GeekParkTopicsReader";
+			};
+			name = Debug;
+		};
+		F7A80FA31C8D55590097BF31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GeekParkTopicsReaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zk.GeekParkTopicsReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeekParkTopicsReader.app/GeekParkTopicsReader";
+			};
+			name = Release;
+		};
+		F7A80FA51C8D55590097BF31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GeekParkTopicsReaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zk.GeekParkTopicsReaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GeekParkTopicsReader;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F7A80FA61C8D55590097BF31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GeekParkTopicsReaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zk.GeekParkTopicsReaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GeekParkTopicsReader;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7A80F711C8D55590097BF31 /* Build configuration list for PBXProject "GeekParkTopicsReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7A80F9C1C8D55590097BF31 /* Debug */,
+				F7A80F9D1C8D55590097BF31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7A80F9E1C8D55590097BF31 /* Build configuration list for PBXNativeTarget "GeekParkTopicsReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7A80F9F1C8D55590097BF31 /* Debug */,
+				F7A80FA01C8D55590097BF31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7A80FA11C8D55590097BF31 /* Build configuration list for PBXNativeTarget "GeekParkTopicsReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7A80FA21C8D55590097BF31 /* Debug */,
+				F7A80FA31C8D55590097BF31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7A80FA41C8D55590097BF31 /* Build configuration list for PBXNativeTarget "GeekParkTopicsReaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7A80FA51C8D55590097BF31 /* Debug */,
+				F7A80FA61C8D55590097BF31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7A80F6E1C8D55590097BF31 /* Project object */;
+}
